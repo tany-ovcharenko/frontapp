@@ -1,18 +1,63 @@
 <template>
   <div>
-    <UCard class="mb-6">
-      <template #header>
-        <div class="flex items-center justify-between">
-          <h1 class="text-xl font-bold">Welcome to the Homepage</h1>
+    <div class="container">
+      <UCard>
+        <div class="toolbar profile">
+          <div class="profile-menu flex mb-3">
+            <a href="#" class="printer-icon mr-3"></a>
+            <a href="#" class="pdf-icon mr-3"></a>
+            <a href="#" class="doc-icon mr-3"></a>
+            <a href="#" class="list-icon mr-3"></a>
+            <a href="#" class="basket-icon mr-3"></a>
+            <a href="#" class="send-icon mr-3"></a>
+            <a href="#" class="favor-icon"></a>
+          </div>
         </div>
-      </template>
-      <p>This page demonstrates the sidebar with WordPress menu integration.</p>
-      <template #footer>
-        <UButton color="primary" to="https://example.com">
-          Visit WordPress
-        </UButton>
-      </template>
-    </UCard>
+        <div class="profile-header flex">
+            <div class="profile-image mr-3">
+            </div>
+            <div class="profile-details">
+                <h1 class="text-lg">Фуфукович Глеб Стопудов<span class="square"></span></h1>
+                <p>Кандидат на вакансию: <a href="#" class="link">Жадный благотворитель</a><span class="square"></span> <a href="#" class="link">(14.08.2024 Отклик)</a></p>
+                <p>Просмотрено</p>
+                <p>Возраст не указан</p>
+                <p class="flex items-center"><span class="phone link"></span>+79876543210
+                  <a href="#" class="soc whatsapp"></a><a href="#"class="soc viber"></a><a href="#" class="soc telegram"></a>
+                </p>
+                <p><a href="mailto:test@gmail.com" class="mail">test@gmail.com</a>
+                  </p>
+                
+                
+            </div>
+        </div>
+
+        <div class="actions">
+            <button>Собеседование запланировано</button>
+            <button>Создать видеозвонок</button>
+            <button>Запланировать событие</button>
+            <button>Отправить запрос</button>
+        </div>
+
+        <div class="status-track">
+            <button>Новое</button>
+            <button>Просмотрено</button>
+            <button>Отправлено приглашение</button>
+            <button>Назначено собеседование</button>
+            <button>Не дошел</button>
+            <button>Проведено собеседование</button>
+        </div>
+
+        <div class="footer">
+            <p>Pikabu отклик</p>
+            <p>Отлик с портала pikabu.</p>
+            <p>Дата рождения: 1987-04-02</p>
+            <p>Гражданство: Россия</p>
+            <p>Сопроводительное письмо</p>
+            <p>Файлы портфолио: Резюме:</p>
+        </div>
+      </UCard>
+    </div>
+ 
     
     <!-- Тестовый компонент для проверки переменных окружения -->
     <EnvTest class="mb-6" />

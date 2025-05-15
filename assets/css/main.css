@@ -3,6 +3,7 @@
 
 :root {
     --ui-container: 1920px;
+    --text-lg: 24px;
 }
 
 /* Глобальные стили для цветовых режимов */
@@ -16,4 +17,91 @@
 
 .sepia [class*="border"] {
     border-color: var(--tw-ring-color);
+}
+
+[data-collapsed="true"] .iconify {
+    width: 1.5em;
+    height: 1.5em;
+    display: block;
+    margin: 0 auto;
+} 
+ 
+.profile-menu a {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    background-size: 100% 100%;
+}
+.printer-icon {
+    background-image: url(../images/printer-icon.png);
+}
+.pdf-icon {
+    background-image: url(../images/pdf-icon.png);
+}
+.doc-icon {
+    background-image: url(../images/doc-icon.png);
+}
+.list-icon {
+    background-image: url(../images/list-icon.png);
+}
+.basket-icon {
+    background-image: url(../images/basket-icon.png);
+}
+.send-icon {
+    background-image: url(../images/send-icon.png);
+}
+.favor-icon {
+    background-image: url(../images/fav-icon.png);
+}
+.profile-image {
+    background: url(../images/user.png) no-repeat 0 0;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+}
+.link {
+    color: #2346ae;
+}
+.square {
+    background: url(../images/link.webp) no-repeat 0 0;
+    background-size: cover;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    opacity: 0.7;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.phone {
+    background: url(../images/phone.svg) no-repeat 0 0;
+    background-size: 100% auto;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+.soc {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 0 7px;
+}
+.whatsapp {
+    background: url(../images/whatapp.png) no-repeat 0 0;
+    background-size: contain;
+}
+.viber {
+    background: url(../images/viber.png) no-repeat 0 0;
+    background-size: contain;
+}
+.telegram {
+    background: url(../images/telegram.webp) no-repeat 0 0;
+    background-size: contain;
+}
+.mail {
+    color: #438595;
 }
